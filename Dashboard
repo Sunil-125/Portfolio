@@ -10,7 +10,6 @@
 
   <div class="flex h-screen overflow-hidden">
 
-    <!-- Sidebar -->
     <aside class="bg-white w-64 hidden md:block shadow-lg">
       <div class="p-4 text-xl font-bold border-b">Dashboard</div>
       <nav class="flex flex-col space-y-2 p-4">
@@ -21,7 +20,6 @@
       </nav>
     </aside>
 
-    <!-- Main Content -->
     <div class="flex-1 p-6 overflow-auto">
       <header class="mb-6">
         <h1 class="text-3xl font-bold">Welcome Back!</h1>
