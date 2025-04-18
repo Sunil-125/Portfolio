@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+  <div class="flex h-screen overflow-hidden">
+
+    <!-- Sidebar -->
+    <aside class="bg-white w-64 hidden md:block shadow-lg">
+      <div class="p-4 text-xl font-bold border-b">Dashboard</div>
+      <nav class="flex flex-col space-y-2 p-4">
+        <a href="#" class="hover:bg-gray-100 p-2 rounded">Home</a>
+        <a href="#" class="hover:bg-gray-100 p-2 rounded">Analytics</a>
+        <a href="#" class="hover:bg-gray-100 p-2 rounded">Reports</a>
+        <a href="#" class="hover:bg-gray-100 p-2 rounded">Settings</a>
+      </nav>
+    </aside>
+
+    <!-- Main Content -->
+    <div class="flex-1 p-6 overflow-auto">
+      <header class="mb-6">
+        <h1 class="text-3xl font-bold">Welcome Back!</h1>
+        <p class="text-gray-500">Here's a quick look at your dashboard.</p>
+      </header>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <h2 class="text-lg font-semibold">Card 1</h2>
+          <p class="text-gray-600">Summary or metric here.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <h2 class="text-lg font-semibold">Card 2</h2>
+          <p class="text-gray-600">Another stat or info.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow hover:shadow-lg transition">
+          <h2 class="text-lg font-semibold">Card 3</h2>
+          <p class="text-gray-600">More content here.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
